@@ -27,7 +27,8 @@
     "build-storybook": "build-storybook -s public",
     "fmt": "yarn prettier --write .",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix --ext ts,.tsx ."
+    "lint:fix": "eslint --fix --ext ts,.tsx .",
+    "scaff": "scaffdog generate Component"
   },
   "eslintConfig": {
     "extends": [
@@ -73,7 +74,9 @@
     "eslint": "7",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.29.2",
+    "eslint-plugin-react-hooks": "^4.3.0",
     "prettier": "2.5.1",
+    "scaffdog": "^1.2.0",
     "webpack": "^5.69.1"
   }
 }
