@@ -15,7 +15,7 @@ export const Check = (props: Props) => {
         if (props.isCheck) {
             snd.play(SOUNDS.TRANSITION_DOWN);
         } else {
-            snd.play(SOUNDS.CELEBRATION);
+            snd.play(SOUNDS.TOGGLE_OFF);
         }
         props.onClick && props.onClick();
     };
