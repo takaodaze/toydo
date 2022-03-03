@@ -1,16 +1,15 @@
 ---
-name: 'Component'
-root: 'src/components'
-output: '**/*'
+name: "Component"
+root: "src/components"
+output: "**/*"
 ignore: []
 questions:
-  component_name: 'Please name of component'
+    component_name: "Please name of component"
 ---
 
 # Variables
 
-- computed_component_name: `{{ inputs.component_name | pascal }}`
-
+-   computed_component_name: `{{ inputs.component_name | pascal }}`
 
 # `{{ computed_component_name }}/{{ computed_component_name }}.tsx`
 
