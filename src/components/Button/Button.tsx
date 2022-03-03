@@ -48,7 +48,7 @@ const EmButton = styled.button(
     }) => ({
         width: props.w,
         height: props.h,
-        background: "white",
+        background: "black",
         padding: "10px 30px",
         fontSize: "16px",
         fontWeight: "bold",

@@ -46,11 +46,17 @@ export const Card: FC = (props) => {
 
 const EmDiv = styled.div({
     padding: "15px",
-    background: "rgba(255,255,255,0.4)",
+    background: "rgba(0,0,0,0.3)",
     borderRadius: "10px",
-    border: "1px solid rgba(255,255,255,0.2)",
+    border: "1px solid rgba(155,155,155,0.2)",
     backdropFilter: "blur(10px)",
     display: "inline-block",
     cursor: "pointer",
     userSelect: "none",
+    transitionProperty: "background,padding",
+    transitionDuration: "0.3s",
+    ":hover": {
+        background: "rgba(80,80,80,0.5)",
+        padding: "20px",
+    },
 });
