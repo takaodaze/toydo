@@ -19,7 +19,7 @@ const Template: ComponentStory<typeof Check> = (args) => {
 };
 
 export const checked = Template.bind({});
-checked.args = { ...checked.args, isCheck: true };
+checked.args = { isCheck: true };
 
 export const unchecked = Template.bind({});
-unchecked.args = { ...unchecked.args, isCheck: false };
+unchecked.args = { isCheck: false };
