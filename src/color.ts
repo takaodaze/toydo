@@ -1,3 +1,4 @@
 export const COLORS = {
-    BLUE: "blue",
+    BLUE: "#2B4769",
+    BACKGROUND: "black",
 } as const;
