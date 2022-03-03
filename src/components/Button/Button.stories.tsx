@@ -12,7 +12,10 @@ const Template: ComponentStory<typeof Button> = (args) => (
 
 const commonArg: Parameters<typeof Button>[0] = {
     onClick: () => null,
-    children: "登録",
+    label: "Button",
+    borderRadius: "M",
+    w: undefined,
+    h: undefined,
 };
 
 export const Story = Template.bind({});
